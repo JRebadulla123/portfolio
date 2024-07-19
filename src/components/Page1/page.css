@@ -1,0 +1,126 @@
+.header-container {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin-top: 30px;
+  margin-right: 30px;
+  gap: 15px;
+}
+
+.header-container button {
+  background-color: transparent;
+  border: 0;
+  color: #ccdcf6;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.header-container button:hover {
+  color: #64ffda;
+}
+
+.page-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.header-container span {
+  color: #64ffda;
+}
+
+@media (max-width: 350px) {
+  .header-container {
+    align-items: center;
+    display: block;
+  }
+  .header-container button {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.about-container {
+  display: flex;
+  margin-left: 30px;
+}
+
+.about-container h1 {
+  color: #ccdcf6;
+  font-size: 5rem;
+  line-height: 3rem;
+  font-weight: 700;
+  letter-spacing: -3px;
+}
+
+.about-container h2 {
+  color: #8892b0;
+  font-size: 3rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  font-weight: 700;
+  line-height: 1.75rem;
+  margin: 0%;
+  letter-spacing: -3px;
+}
+
+.about-container p {
+  color: #94a3b8;
+  font-size: 16px;
+  line-height: 2.5rem;
+  font-weight: 700;
+  font-weight: 500;
+  line-height: 1.75rem;
+  margin: 0%;
+  max-width: 30rem;
+  margin-top: 1rem;
+}
+
+.icons {
+  margin-top: 200px;
+  color: #94a3b8;
+  display: block;
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center align items horizontally */
+  margin-left: 40px;
+}
+
+.icon-item {
+  margin-bottom: 30px;
+}
+
+.icon-item p {
+  margin-top: 8px; /* Space between icon and text */
+  font-size: 14px; /* Adjust font size as needed */
+}
+
+.separator {
+  width: 0.1px; /* Width of the vertical line */
+  height: 100px; /* Height of the vertical line */
+  background-color: #ccc; /* Color of the vertical line */
+}
+
+.right-container p {
+  color: #94a3b8;
+}
+
+.logo {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  margin-top: -70px;
+}
+
+.content {
+  margin-top: 100px;
+  margin-left: 130px;
+  margin-top: 50px;
+}
+
+.content > .hi {
+  color: #64ffda;
+}
+
+.content-container {
+  margin-left: -90px;
+}
