@@ -13,16 +13,37 @@ const Page = () => {
     <div className="page-container">
       <div className="icons">
         <div className="icon-item">
-          <GithubOutlined style={{ fontSize: "32px" }} />
+          <a
+            href="https://github.com/JRebadulla123"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <GithubOutlined className="github" style={{ fontSize: "25px" }} />
+          </a>
         </div>
         <div className="icon-item">
-          <FacebookOutlined style={{ fontSize: "32px" }} />
+          <a
+            href="https://www.facebook.com/jellianmarienicolerebadulla23/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FacebookOutlined
+              className="facebook"
+              style={{ fontSize: "25px" }}
+            />
+          </a>
         </div>
         <div className="icon-item">
-          <LinkedinOutlined style={{ fontSize: "32px" }} />
+          <a
+            href="https://www.instagram.com/jellianmolera?igsh=Z2g3cHBxNmFhN2Vj"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <InstagramOutlined className="ig" style={{ fontSize: "25px" }} />
+          </a>
         </div>
         <div className="icon-item">
-          <InstagramOutlined style={{ fontSize: "32px" }} />
+          <LinkedinOutlined className="linkin" style={{ fontSize: "25px" }} />
         </div>
         <hr className="separator" /> {/* Separator placed here */}
       </div>

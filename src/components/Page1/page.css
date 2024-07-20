@@ -5,6 +5,7 @@
   margin-top: 30px;
   margin-right: 30px;
   gap: 15px;
+
 }
 
 .header-container button {
@@ -21,7 +22,8 @@
 
 .page-container {
   display: flex;
-  align-items: flex-start;
+  align-items: start;
+  position: fixed;
 }
 
 .header-container span {
@@ -47,7 +49,7 @@
 
 .about-container h1 {
   color: #ccdcf6;
-  font-size: 5rem;
+  font-size: 3rem;
   line-height: 3rem;
   font-weight: 700;
   letter-spacing: -3px;
@@ -55,13 +57,8 @@
 
 .about-container h2 {
   color: #8892b0;
-  font-size: 3rem;
-  line-height: 2.5rem;
   font-weight: 700;
-  font-weight: 700;
-  line-height: 1.75rem;
-  margin: 0%;
-  letter-spacing: -3px;
+  letter-spacing: -1px;
 }
 
 .about-container p {
@@ -79,25 +76,44 @@
 .icons {
   margin-top: 200px;
   color: #94a3b8;
-  display: block;
-  flex-direction: column; /* Align items vertically */
-  align-items: center; /* Center align items horizontally */
+  flex-direction: column;
+  align-items: center;
   margin-left: 40px;
+
+}
+
+.icon-item a {
+  color: inherit; 
+  text-decoration: none; 
 }
 
 .icon-item {
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-.icon-item p {
-  margin-top: 8px; /* Space between icon and text */
-  font-size: 14px; /* Adjust font size as needed */
+.linkin:hover {
+  color: #64ffda;
+}
+
+.github:hover {
+  color: #64ffda;
+}
+
+.ig:hover {
+  color: #64ffda;
+}
+
+.facebook:hover {
+  color: #64ffda;
 }
 
 .separator {
-  width: 0.1px; /* Width of the vertical line */
-  height: 100px; /* Height of the vertical line */
-  background-color: #ccc; /* Color of the vertical line */
+  width: 0.1px;
+  height: 102px;
 }
 
 .right-container p {
@@ -119,6 +135,8 @@
 
 .content > .hi {
   color: #64ffda;
+  font-size: 15px;
+  line-height: 2.5;
 }
 
 .content-container {
